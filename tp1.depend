@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1459776150 source:c:\users\yibis\desktop\utn 2016\laboratorio 1\code blocks\trabajopracticouno\tp1\funciones.c
+
+1459775871 source:c:\users\yibis\desktop\utn 2016\laboratorio 1\code blocks\trabajopracticouno\tp1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1459775988 c:\users\yibis\desktop\utn 2016\laboratorio 1\code blocks\trabajopracticouno\tp1\funciones.h
+
