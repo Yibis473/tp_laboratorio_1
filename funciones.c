@@ -32,7 +32,7 @@ int factorial (int x)
 {
 
     int aux = x;
-    int valor;
+    int fact;
 
     if (x==0)
     {
@@ -42,14 +42,14 @@ int factorial (int x)
     {
         if (aux>0)
         {
-            valor = x * factorial (x-1);
-            return valor;
+            fact = x * factorial (x-1);
+            return fact;
         }
 
         if(aux<0)
         {
-            valor = x * factorial (x+1);
-            return valor;
+            fact = x * factorial (x+1);
+            return fact;
         }
     }
 
