@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "funciones.h"
+#include "funciones.h"  //inclusion del listado de funciones
 
 
 
@@ -72,8 +72,17 @@ int main()
 
             case 5:
                 rtadivision = division(x,y);
-                printf("La division de (A/B) es: %.2f", rtadivision);
-                printf("\n");
+
+                if (y==0)
+                {
+                    printf("Error. No se puede dividir un numero por 0");
+                    printf("\n");
+                }
+                else
+                {
+                    printf("La division de (A/B) es: %.2f", rtadivision);
+                    printf("\n");
+                }
                 system("pause");
                 break;
 
@@ -102,8 +111,17 @@ int main()
                 printf("\n");
 
                 rtadivision = division(x,y);
-                printf("La division de (A/B) es: %.2f", rtadivision);
-                printf("\n");
+                if (y==0)
+                {
+                    printf("Error. No se puede dividir un numero por 0");
+                    printf("\n");
+                }
+                else
+                {
+                    printf("La division de (A/B) es: %.2f", rtadivision);
+                    printf("\n");
+                }
+
 
                 rtamultiplicacion = multiplicacion(x,y);
                 printf("El producto de (A*B) es: %.2f", rtamultiplicacion);
