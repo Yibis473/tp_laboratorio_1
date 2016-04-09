@@ -73,7 +73,7 @@ int main()
             case 5:
                 rtadivision = division(x,y);
 
-                if (y==0)
+                if (y==0) //validacion de division
                 {
                     printf("Error. No se puede dividir un numero por 0");
                     printf("\n");
@@ -111,7 +111,7 @@ int main()
                 printf("\n");
 
                 rtadivision = division(x,y);
-                if (y==0)
+                if (y==0) //validacion de division
                 {
                     printf("Error. No se puede dividir un numero por 0");
                     printf("\n");

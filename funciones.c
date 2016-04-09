@@ -1,6 +1,6 @@
 
 
-//resolucion de funciones
+//Resolucion de funciones
 
 float suma(float x, float y)
 {
@@ -16,10 +16,8 @@ float resta(float x, float y)
 
 float division(float x, float y)
 {
-
     float division = x/y;
     return(division);
-
 }
 
 float multiplicacion(float x, float y)
@@ -51,8 +49,5 @@ int factorial (int x)
             fact = x * factorial (x+1);
             return fact;
         }
-    }
-
-
-
+    }//else
 }
